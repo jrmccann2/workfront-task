@@ -22,7 +22,7 @@ body {
   margin-bottom: 20px;
  }
  
- #main-title {
+ .main-title {
   font-family: 'Lobster Two', cursive;
   font-size: 50px;
   margin-top: 20px;
@@ -51,7 +51,7 @@ body {
  }
  
  @media screen and (max-width: 859px){
-  #main-title {
+  .main-title {
     font-size: 40px;
   }
    .countdown {
@@ -69,7 +69,7 @@ body {
     width: 408px;
   }
  
-  #main-title {
+  .main-title {
     font-size: 30px;
   }
  
@@ -88,7 +88,7 @@ body {
     width: 300px;
   }
  
-  #main-title {
+  .main-title {
     font-size: 20px;
   }
  
