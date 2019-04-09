@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="A simple countdown tool for anyone anticipating anything.">  <!-- Added description and keywords for some simple SEO as well as accessability -->
+  <meta name="keywords" content="countdown, countdown clock, countdown time, countdown timer, countdown to midnight, countdown app, countdown to date">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./index.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="https://ga0.imgix.net/logo/o/9679-1487332353-7389555?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format"/>
+  <title>Workfront Countdown</title>
+</head>
+<body>
+  <header>
+    <div>Josh McCann</div>
+    <div>Phone: (503) 867-5309</div> <!-- Phone number and email are fake as I did not want my personal phone and email on Github -->
+    <div>Email: something@gmail.com</div>
+  </header>
+  <label for="dateInput">Select a Date</label>
+  <input id="dateInput" type="date" onchange="countDown()">
+  <h1 id="main-title">Countdown</h1>
+  <section id="clock">
+    <div>
+      <h1 id="days" class="countdown">00</h1>
+      <h2>DAYS</h2>
+    </div>
+    <div>
+      <h1 id="hours" class="countdown">00</h1>
+      <h2>HOURS</h2>
+    </div>
+    <div>
+      <h1 id="minutes" class="countdown">00</h1>
+      <h2>MINUTES</h2>
+    </div>
+    <div>
+      <h1 id="seconds" class="countdown">00</h1>
+      <h2>SECONDS</h2>
+    </div>
+  </section>
+</body>
+</html>
+
+<script src="./index.js"></script>
